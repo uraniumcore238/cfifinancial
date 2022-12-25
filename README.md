@@ -1,13 +1,3 @@
-<p align="right">
-<a href="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=uraniumcore.miro&color=55acb7&style=flat&logo=Github&text=Hello_Visitors!">
-  <img title="|Customized by uraniumcore|" src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=uraniumcore.miro&color=55acb7&style=flat&logo=Github&text=Hello_Visitors!"/>
-  <img title="|Customized by uraniumcore|" alt="GitHub watchers" src="https://img.shields.io/github/watchers/uraniumcore238/miro?color=55acb7&logo=github">
-</a>
-</p>
-
-# Test task for CFI signup form
-
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [CFI main page](https://cfifinancial.com/)
 
 ## :rocket: QA Engineer Assignment
 
