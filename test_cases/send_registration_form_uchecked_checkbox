@@ -1,0 +1,36 @@
+Title: Send registration form unchecked checkbox
+
+Section:            Registration form
+Template:           User registration
+Type:               Common tests
+Priority:           medium
+Severity:           normal
+Reference:          https://some-user-story.com
+Automation type:    not automated
+
+Preconditions:
+User have to open https://example-user-reg-form.com
+
+Steps:
+User have to fill reg.form
+	                select title - mr
+                    Input First Name - Boris
+                    Input Last Name - Stogoff
+			        Select Position - example_position_1
+                    Input Company name - MyCompany
+                    Input Business Arena - Construction
+                    Select Employees - example_employees_1
+                    Input Street + Nr - Columbus street 5
+                    Input Additional Information - test additional field
+                    Input Zip Code - 6027
+                    Select Place - example_place_1
+                    Select Country - example_county_1
+                    Input Code+ - +3
+                    Input Phone Number - 7777777777
+                    Input Your Email - test@test.com
+                    Not to check Checkbox I do accept
+
+User have to push on a  "Register badge" button
+
+User have to see warning checkbox message
+The form haven't sent

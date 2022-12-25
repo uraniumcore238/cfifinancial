@@ -1,0 +1,32 @@
+Title: Check visibility of registration form
+
+Section:            Registration form
+Template:           User registration
+Type:               Common tests
+Priority:           medium
+Severity:           normal
+Reference:          https://some-user-story.com
+Automation type:    not automated
+
+Preconditions:
+User have to open https://example-user-reg-form.com
+
+Steps:
+User have to see	Title: General Information
+			        Title selector where user can select mr/mrs
+                    First Name input field with placeholder “First Name”
+                    Last Name input field with placeholder “Last Name”
+			        Position selector where user can select example_position_1/ example_position_2
+                    Company input field with placeholder “Company”
+                    Business Arena input field with placeholder “Business Arena”
+                    Employees selector where user can select example_employees_1/ example_employees_2
+                    Title: Contact Details
+                    Street + Nr input field with placeholder “Street + Nr”
+                    Additional Information input field with placeholder “Additional Information”
+                    Zip Code input field with placeholder “Zip Code”
+                    Place selector where user can select example_place_1/ example_place_2
+                    Country selector where user can select example_county_1/ example_country_2
+                    Code+ input field with placeholder “Code+”
+                    Phone Number input field with placeholder “Phone Number”
+                    Your Email input field with placeholder “Your Email”
+                    Checkbox I do accept

@@ -1,0 +1,35 @@
+Title: Send registration form with empty fields
+
+Section:            Registration form
+Template:           User registration
+Type:               Common tests
+Priority:           medium
+Severity:           normal
+Reference:          https://some-user-story.com
+Automation type:    not automated
+
+Preconditions:
+User have to open https://example-user-reg-form.com
+
+Steps:
+User have not to fill reg. form
+
+User have to push on a  "Register badge" button
+
+User have to see warnings of the fields
+                    title - it is mandatory field
+                    First Name - it is mandatory field
+                    Last Name - it is mandatory field
+			        Position - it is mandatory field
+                    Company name - it is mandatory field
+                    Business Arena - it is mandatory field
+                    Employees - it is mandatory field
+                    Street + Nr - it is mandatory field
+                    Additional Information - it is mandatory field
+                    Zip Code - it is mandatory field
+                    Place - it is mandatory field
+                    Country - it is mandatory field
+                    Phone Number - it is mandatory field
+                    Your Email - it is mandatory field
+                    Checkbox I do accept - it is mandatory
+The form haven't sent
