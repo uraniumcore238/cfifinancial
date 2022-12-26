@@ -72,7 +72,7 @@ def test_send_reg_form_names(name, wd):
 @allure.story('Example story')
 @allure.suite('Example suite')
 @allure.title('Send registration form. Check positive last name values')
-@pytest.mark.parametrize("last_name", [pytest.param('BORIS', marks=pytest.mark.allure_label("ID 106", label_type="tag")),
+@pytest.mark.parametrize("last_name", [pytest.param('STOGOFF', marks=pytest.mark.allure_label("ID 106", label_type="tag")),
                                    pytest.param(' Stogoff ',
                                                 marks=pytest.mark.allure_label("ID 107", label_type="tag")),
                                    pytest.param('StoGoff',

@@ -9,8 +9,8 @@ from schemas import registration_schema
 @allure.tag('ID 1')
 @allure.severity(severity_level='normal')
 @allure.story('API tests')
-@allure.suite('')
-@allure.title('')
+@allure.suite('Example suite')
+@allure.title('Send registration form')
 def test_send_registration_form():
     load_dotenv()
     base_url = f'https://{os.getenv("BASE_DOMAIN")}'
@@ -42,8 +42,8 @@ def test_send_registration_form():
 @allure.tag('ID 2')
 @allure.severity(severity_level='normal')
 @allure.story('API tests')
-@allure.suite('')
-@allure.title('')
+@allure.suite('Example suite')
+@allure.title('Send empty registration form')
 def test_send_empty_registration_form():
     load_dotenv()
     base_url = f'https://{os.getenv("BASE_DOMAIN")}'
@@ -74,8 +74,8 @@ def test_send_empty_registration_form():
 @allure.tag('ID 3')
 @allure.severity(severity_level='normal')
 @allure.story('Api tests')
-@allure.suite('')
-@allure.title('')
+@allure.suite('Example suite')
+@allure.title('Send registration form no terms checked')
 def test_send_registration_form_no_tems():
     load_dotenv()
     base_url = f'https://{os.getenv("BASE_DOMAIN")}'
